@@ -1,0 +1,12 @@
+C:\Users\timur\RiderProjects\TestMindbox\GeometryLibrary\bin\Debug\net6.0\GeometryLibrary.deps.json
+C:\Users\timur\RiderProjects\TestMindbox\GeometryLibrary\bin\Debug\net6.0\GeometryLibrary.dll
+C:\Users\timur\RiderProjects\TestMindbox\GeometryLibrary\bin\Debug\net6.0\GeometryLibrary.pdb
+C:\Users\timur\RiderProjects\TestMindbox\GeometryLibrary\obj\Debug\net6.0\GeometryLibrary.csproj.AssemblyReference.cache
+C:\Users\timur\RiderProjects\TestMindbox\GeometryLibrary\obj\Debug\net6.0\GeometryLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timur\RiderProjects\TestMindbox\GeometryLibrary\obj\Debug\net6.0\GeometryLibrary.AssemblyInfoInputs.cache
+C:\Users\timur\RiderProjects\TestMindbox\GeometryLibrary\obj\Debug\net6.0\GeometryLibrary.AssemblyInfo.cs
+C:\Users\timur\RiderProjects\TestMindbox\GeometryLibrary\obj\Debug\net6.0\GeometryLibrary.csproj.CoreCompileInputs.cache
+C:\Users\timur\RiderProjects\TestMindbox\GeometryLibrary\obj\Debug\net6.0\GeometryLibrary.dll
+C:\Users\timur\RiderProjects\TestMindbox\GeometryLibrary\obj\Debug\net6.0\refint\GeometryLibrary.dll
+C:\Users\timur\RiderProjects\TestMindbox\GeometryLibrary\obj\Debug\net6.0\GeometryLibrary.pdb
+C:\Users\timur\RiderProjects\TestMindbox\GeometryLibrary\obj\Debug\net6.0\ref\GeometryLibrary.dll

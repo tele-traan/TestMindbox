@@ -6,12 +6,20 @@ public class Triangle : IFigure
     public double Side1 { get; set; }
     public double Side2 { get; set; }
     public double Side3 { get; set; }
-
-    public Triangle(TriangleInfo info)
+    public Triangle(params object?[]? parameters)
     {
-        double side1 = info.Side1,
-            side2 = info.Side2,
-            side3 = info.Side3;
+        if (parameters is null 
+            || parameters.Any(p => 
+                p is not double 
+                    and not float 
+                    and not int))
+        {
+            throw new ArgumentException("Для сторон треугольника были введены некорректные значения");
+        }
+        
+        double side1 = Convert.ToDouble(parameters[0]),
+            side2 = Convert.ToDouble(parameters[1]),
+            side3 = Convert.ToDouble(parameters[2]);
         
         if (side1 <= 0 || side2 <= 0 || side3 <= 0)
         {

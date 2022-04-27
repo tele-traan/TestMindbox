@@ -4,9 +4,16 @@ public class Circle : IFigure
 {
     public double Radius { get; set; }
 
-    public Circle(CircleInfo info)
+    public Circle(params object?[]? parameters)
     {
-        double radius = info.Radius;
+        if (parameters?[0] is not double
+            and not float 
+            and not int)
+        {
+            throw new ArgumentException("Для радиуса круга было введено некорректное значение");
+        }
+
+        var radius = Convert.ToDouble(parameters[0]!);
         if (radius <= 0)
         {
             throw new InvalidOperationException("Радиус круга не должен быть меньше или равняться нулю");

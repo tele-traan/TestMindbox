@@ -2,14 +2,9 @@
 
 public class CircleInfo : FigureInfo
 {
-    public double Radius { get; set; }
-
-    public CircleInfo(double radius)
-    {
-        Radius = radius;
-    }
+    public CircleInfo(params object?[]? parameters) : base(parameters) {}
     public override IFigure CreateFigure()
     {
-        return new Circle(this);
+        return new Circle(Parameters);
     }
 }
